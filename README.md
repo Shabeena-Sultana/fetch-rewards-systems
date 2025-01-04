@@ -11,8 +11,8 @@ This repository contains my solutions for the coding exercise. Below are the det
 - Designed a relational data model to organize the data into normalized tables for scalability, consistency, and ease of querying.  
 
 **Deliverables**:  
-- [Data Model Diagram](fetch-rewards-systems/data_model.png) .
-- [SQL Scripts](fetch-rewards-systems/tables-creation/create_statements.sql) to create the tables. 
+- [Data Model Diagram](data_model_diagram.png) .
+- [SQL Scripts](tables-creation/create_statements.sql) to create the tables. 
 
 ---
 
@@ -23,9 +23,9 @@ This repository contains my solutions for the coding exercise. Below are the det
 - The queries can be executed on the MySQL system through SQL Connector.
 
 **Deliverables**:  
-- Data Loader [Python Scripts](fetch-rewards-systems/data-loader).
-- Table Creation [SQL Scripts](fetch-rewards-systems/tables-creation/create_statements.sql)
-- [SQL Queries](fetch-rewards-systems/queries.sql)  
+- Data Loader [Python Scripts](data-loader).
+- Table Creation [SQL Scripts](tables-creation/create_statements.sql)
+- [SQL Queries](queries.sql)  
 - Explanation of the query logic (included in comments within the SQL script).
 
 **Assumptions**:  
@@ -40,7 +40,7 @@ This repository contains my solutions for the coding exercise. Below are the det
 - Wrote a query to identify these issues for better monitoring and resolution.  
 
 **Deliverables**:  
-- [Detailed Summary](fetch-rewards-systems/data_quality_issues.md) of Data Quality Issues.
+- [Detailed Summary](data_quality_issues.md) of Data Quality Issues.
 - SQL Queries included in the detailed summary
 
 **Assumptions**:  
@@ -51,7 +51,7 @@ This repository contains my solutions for the coding exercise. Below are the det
 #### **4. Write a Short Email or Slack Message to the Business Stakeholder**  
 
 **Deliverables**:  
-- [Email draft](fetch-rewards-systems/data_questions_email.md) 
+- [Email draft](data_questions_email.md) 
 
 ---
 
