@@ -10,7 +10,7 @@ Query:`select * from receipts_staging where bonus_points_earned  is null`
 
 Query:`select * from receipts_staging where bonus_points_earned_reason is null`
 
-**4. Few records contained values "User ID is not found in the user table**
+**4. There are records in the receipts table where the user is not found in the users table.**
 
 Query:`select user_id from receipts_staging where user_id not in ( select id from users_staging)`
 
@@ -18,7 +18,7 @@ Query:`select user_id from receipts_staging where user_id not in ( select id fro
 
 Query:`select * from users_staging where state is null`
 
-**6.Data contains values other than constant "consumer" for Role column in User table.**
+**6.Data contains values other than constant "consumer" for "role" column in User table.**
 
 Query: `select distinct role from users_staging`
 
