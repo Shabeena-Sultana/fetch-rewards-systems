@@ -68,4 +68,4 @@ def process_users_file(file_path):
     conn.close()
     print("Data loaded and upserted successfully!")
 
-process_users_file("/fetch/Final_Code/users.json")
+process_users_file("/Users/shabeenasultana/PycharmProjects/interview/fetch/Final_Code/fetch-rewards-systems/data-loader/users.json")

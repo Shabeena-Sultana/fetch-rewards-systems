@@ -73,4 +73,4 @@ def process_brands_file(file_path):
     conn.close()
     print("Data loaded and upserted successfully!")
 
-process_brands_file("/fetch/Final_Code/brands.json")
+process_brands_file("/Users/shabeenasultana/PycharmProjects/interview/fetch/Final_Code/fetch-rewards-systems/data-loader/brands.json")

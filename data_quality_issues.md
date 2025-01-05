@@ -29,3 +29,6 @@ Query:`select top_brand, count(*) from rewards_db.dim_brands group by top_brand`
 **8.Barcode is null or not found in the brands table.**
 
 Query:`select distinct brand_id from rewards_receipt_item_staging;`
+
+**9. There records in the receipts json where finished date is not present.**
+ Query: ``
